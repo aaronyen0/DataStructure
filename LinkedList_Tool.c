@@ -65,7 +65,7 @@ struct LinkedList* LinkedList_Delete(struct LinkedList* root, int val) {
 
 void LinkedList_Traversal(struct LinkedList* node) {
 	printf("LinkedList: ");
-	while (node) {
+	while (node) { 
 		printf("%d, ", node->val);
 		node = node->next;
 	}
