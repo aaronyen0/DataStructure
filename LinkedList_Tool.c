@@ -34,7 +34,7 @@ struct LinkedList* LinkedList_AddFirst(struct LinkedList* root, int val) {
 	node->next = root;
 	return node;
 }
-
+ 
 struct LinkedList* LinkedList_Clear(struct LinkedList* root) {
 	struct LinkedList* node;
 	while (root) {
