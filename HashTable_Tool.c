@@ -1,3 +1,7 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
+
 #define HASHTABLESIZE 5
 
 struct LinkedList {
