@@ -73,7 +73,6 @@ void LinkedList_Traversal(struct LinkedList* node) {
 }
 
 
-
 int main()
 {
 	//test
@@ -91,7 +90,6 @@ int main()
 	LinkedList_Traversal(root);
 
 	//root = LinkedList_Clear(root);
-
 	//test delete first
 	while (1) {
 		int x;
@@ -101,7 +99,6 @@ int main()
 		}
 		root = LinkedList_Delete(root, x);
 		LinkedList_Traversal(root);
-
 	}
 
 	return 0;
